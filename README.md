@@ -8,9 +8,10 @@ from gmail_sms.gmail import send_message
 > **define the required parameters**
 ```
 gmail_user = 'example@gmail.com'
-@@ -9,4 +12,8 @@ recipient = "recipientUser1@gmail.com , recipientUser2@gmail.com"
+gmail_app_password = 'gmail app password' ==> to create one [Link](https://myaccount.google.com/apppasswords) 
+recipient = "recipientUser1@gmail.com , recipientUser2@gmail.com"
 subject = "How Are You"
-body = "selam, How are you"
+body = "Selam, How are you"
 ```
 > **call the send_message function**
 ```
